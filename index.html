@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Tic Tac Toe</title>
+    <script src='./src/index.js'></script>
+    <link rel='stylesheet' href='./site.css'>
+  </head>
+  <body>
+    <div id='root'>
+      <div id='game'>
+        <div id='controls'>
+          <form id='form'>
+            <select name='mode' id='mode'>
+              <option value='4'>Easy</option>
+              <option value='10'>Medium</option>
+              <option value='100'>Hard</option>
+            </select>
+            <select name='first' id='first'>
+              <option value='player'>You First</option>
+              <option value='ai'>AI First</option>
+            </select>
+            <input type='submit' value='Start New Game' />
+          </form>
+        </div>
+        <div id='board-container'></div>
+        <div style='height: 44px;'></div>
+        <div id='copyright'>
+          Built with &lt;3 by Anmol Gautam
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
